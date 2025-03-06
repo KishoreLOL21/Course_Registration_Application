@@ -4,9 +4,9 @@ import pandas as pd
 def db_connect():
     try:
         connection = cx_Oracle.connect(
-            user="system",
-            password="921729",
-            dsn="Kishore_PC:1521/XE"
+            user="Your Oracle SQL User Name here",
+            password="Your Oracle SQL Password here",
+            dsn="DSN of your PC here"
         )
         return connection
     except cx_Oracle.DatabaseError as e:
