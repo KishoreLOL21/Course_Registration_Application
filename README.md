@@ -6,7 +6,18 @@ This Tkinter-based Course Registration System is a desktop application that enab
 ✅ Student Functionalities – Register for courses, view enrolled courses.
 ✅ Admin Functionalities – Manage courses, add/delete courses, view student details, and run SQL queries.
 ✅ Database Integration – Uses Oracle SQL for handling student, course, and registration data.
+✅ Admin Query Tab – Allows admins to execute custom SQL queries for flexible data retrieval.
 ✅ GUI-Based Interface – Built with Tkinter, featuring an intuitive and user-friendly design.
+
+🔍 Admin Query Tab – Execute SQL Commands
+The Admin Query Tab allows administrators to execute custom SQL queries within the application.
+This feature helps retrieve specific data from the database, such as:
+
+🔹 Listing students who registered for a particular course.
+🔹 Fetching student details from a specific department.
+🔹 Viewing professor assignments to courses.
+
+Admins can enter any valid SQL query, and the results will be displayed in a formatted table within the GUI.
 
 🛠️ Tech Stack
 Python – Tkinter for GUI, cx_Oracle for database connection, pandas for data handling.
