@@ -9,9 +9,9 @@ import random
 def db_connect():
     try:
         connection = db.connect(
-            user="system",
-            password="921729",
-            dsn="Kishore_PC:1521/XE"
+            user="Your Oracle SQL User Name here",
+            password="Your Oracle SQL Password here",
+            dsn="DSN of your PC here"
         )
         return connection
     except db.DatabaseError as e:
